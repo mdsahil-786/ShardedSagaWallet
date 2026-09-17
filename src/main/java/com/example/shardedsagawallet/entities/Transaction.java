@@ -39,10 +39,12 @@ public class Transaction {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "status")
+    @Builder.Default
     private TransactionStatus status = TransactionStatus.PENDING;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "transaction_type")
+    @Builder.Default
     private TransactionType type = TransactionType.TRANSFER;
 
     @Column(name = "description")

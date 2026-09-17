@@ -1,5 +1,6 @@
 package com.example.shardedsagawallet.repositories;
 
+
 import com.example.shardedsagawallet.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
